@@ -4,6 +4,7 @@ import cors from "cors";
 
 const app = express();
 app.use(cors());
+let views = 0;
 
 const USER_ID = "1462586784067358894";
 
@@ -28,3 +29,7 @@ app.get("/discord", async (req, res) => {
 });
 
 app.listen(3000, () => console.log("Rodando"));
+app.get("/view", (req, res) => {
+  views++;
+  res.json({ views });
+});
