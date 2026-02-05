@@ -1,9 +1,8 @@
 {
-  "name": "discord-site-backend",
+  "name": "contador-views",
   "type": "module",
   "dependencies": {
     "express": "^4.18.2",
-    "node-fetch": "^3.3.2",
     "cors": "^2.8.5"
   }
 }
