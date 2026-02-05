@@ -5,7 +5,7 @@ import cors from "cors";
 const app = express();
 app.use(cors());
 
-const USER_ID = "COLE_SEU_USER_ID_AQUI";
+const USER_ID = "1462586784067358894";
 
 app.get("/discord", async (req, res) => {
   const response = await fetch(
